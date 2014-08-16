@@ -12,3 +12,7 @@ hr {
     -moz-border-left-colors: none;
     border-image: none;
 }
+
+.rodape-container  {height: 150px; background: #3f3f3f; }
+.rodape-container .container { margin: 30px auto; color: #ffffff; padding: 15px;}
+.rodape-container .container p {text-align: center; line-height: 110px; font-size: 16px;}
