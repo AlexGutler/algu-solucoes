@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="utf-8">
-    <title> Algu Sistemas - Curso PHP </title>
+    <title> Algu Soluções - Curso PHP </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
 
     <!-- favicon
