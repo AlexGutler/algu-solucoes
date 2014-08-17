@@ -4,9 +4,9 @@
 
     <div class="foco-container">
         <article class="container">
-            <h1>NOSSO FOCO: <strong>SATISFAÇÃO DO CLIENTE!</strong></h1>
+            <h1>NOSSO FOCO: <strong>SATISFAÇÃO DOS CLIENTES!</strong></h1>
             <h4>SEU SISTEMA COM SUAS NECESSIDADES.</h4>
-            <p>CONHEÇA A <strong>AUGU SOLUÇÕES!</strong></p>
+           <!-- <p>CONHEÇA A <strong>AUGU SOLUÇÕES!</strong></p> -->
         </article>
     </div>
 
