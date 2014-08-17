@@ -1,9 +1,8 @@
-.topo-container {margin-bottom: 70px; height: auto;}
+/* HEADER */
+.topo-container {margin-bottom: 50px; height: auto;}
 .topo-container .navbar {margin-bottom: 0 !important;;}
-
 .navbar-brand { padding: 0 !important;  }
 .navbar-brand img {margin-right: 6px !important;}
-
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -18,9 +17,17 @@ hr {
     border-image: none;
 }
 
-.rodape-container  {height: auto; background: #3f3f3f; }
-.rodape-container .container { margin: 0 auto; color: #ffffff; margin-bottom:5px; }
+/* FOOTER */
+.rodape-container  {height: auto; background: #3f3f3f; border-top: 5px solid #5b4182; }
+.rodape-container .container { margin: 0 auto; color: #ffffff; }
 .rodape-container .row {margin-bottom: 4px !important;}
 .rodape-container .copyright p {text-align: center; font-size: 13px; padding-top: 10px;}
 .rodape-container .media-social p {text-align: center; font-size: 13px;}
 .rodape-container .media-social p a img:hover { opacity:0.4;}
+
+
+/* INDEX */
+.principal-container {width: 100%; height: auto; background:#f3f3f3;; color: #fff;}
+.principal-container .foco-container {width: 100%; height: auto; background: #5b4182; border-bottom: 2px solid #3f3f3f;}
+.principal-container .servicos-container {margin-top: 15px;}
+.principal-container .servicos-container h3 {margin-top: 3px !important;}

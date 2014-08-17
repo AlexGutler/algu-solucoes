@@ -37,16 +37,16 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"><img src="imagens/logo/ag-icon-v.1.1.1.png" height="50px" width="auto"/>Algu Soluções</a> <!-- Algu Soluções -->
+                        <a class="navbar-brand" href="#"><img src="imagens/icons/ag-icon-simple.png" height="50px" width="auto"/>Algu Soluções</a> <!-- Algu Soluções -->
                     </div>
 
                     <div class="collapse navbar-collapse" id="navbar-collapse">
                         <ul class="nav navbar-nav">
-                            <li ><a href="#">Home</a></li> <!-- class="active" -->
-                            <li><a href="#">Empresa</a></li>
-                            <li><a href="#">Produtos</a></li>
-                            <li><a href="#">Serviços</a></li>
-                            <li><a href="#">Contato</a></li>
+                            <li ><a href="index.php">Home</a></li> <!-- class="active" -->
+                            <li><a href="empresa.php">Empresa</a></li>
+                            <li><a href="produtos.php">Produtos</a></li>
+                            <li><a href="servicos.php">Serviços</a></li>
+                            <li><a href="contato.php">Contato</a></li>
                         </ul>
                     </div>
 
@@ -55,5 +55,3 @@
         </div>
     </div>
 </header>
-<hr/>
-<? require_once('footer.php') ?>

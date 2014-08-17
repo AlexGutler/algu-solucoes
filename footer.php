@@ -5,7 +5,7 @@
             <div class="col-md-12">
                 <div class="copyright">
                     <p>
-                         Todos os Direitos Reservados -
+                        Todos os Direitos Reservados -
                         <?
                             date_default_timezone_set('UTC');
                             echo date("Y");
@@ -30,8 +30,6 @@
         </div>
     </div>
 </footer>
-
-
 
 </body>
 </html>
