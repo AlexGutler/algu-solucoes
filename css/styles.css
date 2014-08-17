@@ -1,3 +1,8 @@
+.topo-container {margin-bottom: 70px; height: auto;}
+.topo-container .navbar {margin-bottom: 0 !important;;}
+
+.navbar-brand { padding: 0 !important;  }
+.navbar-brand img {margin-right: 6px !important;}
 
 hr {
     margin-top: 20px;
@@ -13,7 +18,9 @@ hr {
     border-image: none;
 }
 
-.rodape-container  {height: 70px; background: #3f3f3f; }
-.rodape-container .container { margin: 30px auto; color: #ffffff; padding: 15px;}
-.rodape-container .container p {text-align: left; line-height: 35px; font-size: 13px;}
-.rodape-container .container p a img:hover { opacity:0.4;}
+.rodape-container  {height: auto; background: #3f3f3f; }
+.rodape-container .container { margin: 0 auto; color: #ffffff; margin-bottom:5px; }
+.rodape-container .row {margin-bottom: 4px !important;}
+.rodape-container .copyright p {text-align: center; font-size: 13px; padding-top: 10px;}
+.rodape-container .media-social p {text-align: center; font-size: 13px;}
+.rodape-container .media-social p a img:hover { opacity:0.4;}

@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="utf-8">
-    <title> algu soluções - Curso PHP Code-Education </title>
+    <title> Algu Soluções - Curso PHP Code-Education </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
 
     <!-- favicon -->
@@ -24,7 +24,7 @@
 
 <body>
 
-<header class="topo">
+<header class="topo-container">
     <div class="navbar-wrapper">
         <div class="container-fluid">
             <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
@@ -37,7 +37,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#">algu soluções</a>
+                        <a class="navbar-brand" href="#"><img src="imagens/logo/ag-icon-v.1.1.1.png" height="50px" width="auto"/>Algu Soluções</a> <!-- Algu Soluções -->
                     </div>
 
                     <div class="collapse navbar-collapse" id="navbar-collapse">
