@@ -52,3 +52,9 @@ border-color:#f3f3f3; }
 .servicos-container .jumbotron {border-bottom: 3px solid #5b4182; margin-bottom: 20px;}
 .servicos-container .jumbotron p {font-size: 19px;}
 .servicos-container .jumbotron .img-responsive {margin:21px auto 0 auto !important;}
+
+/* PRODUTOS */
+.produtos-container {width: 100%; height: auto;}
+.produtos-container .jumbotron {border-bottom: 3px solid #5b4182; margin-bottom: 20px;}
+.produtos-container .jumbotron p {font-size: 19px;}
+.produtos-container .jumbotron .img-responsive {margin:21px auto 0 auto !important;}
