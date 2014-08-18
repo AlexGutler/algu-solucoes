@@ -67,3 +67,10 @@ border-color:#f3f3f3; }
 .contato-container .contato-msg-container {width: 100%; height: auto; color: #fff; background: #5b4182; border-bottom: 2px solid #3f3f3f;
 padding: 20px; margin-bottom: 30px;}
 .contato-container form {margin-bottom: 30px;}
+
+/* CONTATO-DADOS */
+.contato-mensagem-container {width: 100%; height: auto; background:#f3f3f3;}
+.contato-mensagem-container .contato-dados-container {width: 100%; height: auto; color: #fff; background: #5cb85c;
+border-bottom: 2px solid #3f3f3f; padding: 20px; margin-bottom: 30px;}
+.contato-mensagem-container .contato-form-dados-container {height: 390px;}
+.contato-mensagem-container .contato-form-dados-container form {margin-bottom: 30px;}

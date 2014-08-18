@@ -3,7 +3,7 @@
 <section class="produtos-container">
     <div class="container">
 
-        <div class="jumbotron">
+        <article class="jumbotron">
 
             <h2><strong>SGC - Sistema de Gestão de Contas a Receber</strong></h2>
             <p>
@@ -17,7 +17,7 @@
                 <img class="img-responsive" src="imagens/produtos/sistema-gestao.jpg" alt="SGC - Sistema de Gestão de Contas a Receber"
                      title="SGC - Sistema de Gestão de Contas a Receber"/>
             </p>
-        </div>
+        </article>
     </div>
 
 </section>
