@@ -8,6 +8,9 @@
     <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="imagens/icons/favicon.ico">
 
+    <meta name="description" content="Algu Soluções - Soluções em Sistemas, Webdesign e Tecnologia" />
+    <meta name="keywords" content="Algu Soluções, sistemas, design, webdesign, redes sociais, tecnologia,"/>
+
     <!-- Bootstrap & CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -37,7 +40,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"><img src="imagens/icons/ag-icon-simple.png" height="50px" width="auto"/>Algu Soluções</a> <!-- Algu Soluções -->
+                        <a class="navbar-brand" href="index.php"><img src="imagens/icons/ag-icon-simple.png" height="50px" width="auto"/>Algu Soluções</a> <!-- Algu Soluções -->
                     </div>
 
                     <div class="collapse navbar-collapse" id="navbar-collapse">

@@ -19,7 +19,7 @@
             <div class="col-md-12">
                 <div class="media-social">
                     <p>
-                        <a href="#"  target="_blank"><img src="imagens/icons/icon-facebook.png" alt="Facebook"></a>
+                        <a href="#"  target="_blank"><img src="imagens/icons/icon-facebook.png" alt="Facebook" title="Algu no Facebook"></a>
                         <a href="#"  target="_blank"><img src="imagens/icons/icon-twitter.png" alt="Twitter"></a>
                         <a href="#"  target="_blank"><img src="imagens/icons/icon-youtube.png" alt="Youtube"></a>
                         <a href="#"  target="_blank"><img src="imagens/icons/icon-pinterest.png" alt="Pinterest"></a>
