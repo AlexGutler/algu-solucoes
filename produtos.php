@@ -1,4 +1,4 @@
-<? require_once('header.php') ?>
+<?php require_once('header.php') ?>
 
 <section class="produtos-container">
     <div class="container">
@@ -23,4 +23,4 @@
 </section>
 
 
-<? require_once('footer.php') ?>
+<?php require_once('footer.php') ?>

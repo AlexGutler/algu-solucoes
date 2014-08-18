@@ -1,4 +1,4 @@
-<? require_once('header.php') ?>
+<?php require_once('header.php') ?>
 
 <section class="contato-container">
 
@@ -50,4 +50,4 @@
     </div>
 </section>
 
-<? require_once('footer.php') ?>
+<?php require_once('footer.php') ?>

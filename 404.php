@@ -1,4 +1,4 @@
-<? require_once('header.php') ?>
+<?php require_once('header.php') ?>
     <div class="container-404">
         <div class="container-mensagem-404">
             <div class="container">
@@ -11,4 +11,4 @@
         </div>
 
     </div>
-<? require_once('footer.php') ?>
+<?php require_once('footer.php') ?>

@@ -6,7 +6,7 @@
                 <div class="copyright">
                     <p>
                         Todos os Direitos Reservados -
-                        <?
+                        <?php
                             date_default_timezone_set('UTC');
                             echo date("Y");
                         ?>
