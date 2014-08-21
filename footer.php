@@ -1,4 +1,4 @@
-
+<hr/>
 <footer  class="rodape-container">
     <div class="container">
         <div class="row">
@@ -30,6 +30,3 @@
         </div>
     </div>
 </footer>
-
-</body>
-</html>

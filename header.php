@@ -1,32 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="utf-8">
-    <title> Algu Soluções - Curso PHP Code-Education </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
-
-    <!-- favicon -->
-    <link rel="icon" type="image/x-icon" href="imagens/icons/favicon.ico">
-
-    <meta name="description" content="Algu Soluções - Soluções em Sistemas, Webdesign e Tecnologia" />
-    <meta name="keywords" content="Algu Soluções, sistemas, design, webdesign, redes sociais, tecnologia,"/>
-
-    <!-- Bootstrap & CSS -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-
-    <!-- Javascript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <![endif]-->
-</head>
-
-<body>
-
 <header class="topo-container">
     <div class="navbar-wrapper">
         <div class="container-fluid">
@@ -40,16 +11,16 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.php"><img src="imagens/icons/ag-icon-simple.png" height="50px" width="auto"/>Algu Soluções</a> <!-- Algu Soluções -->
+                        <a class="navbar-brand" href="home"><img src="imagens/icons/ag-icon-simple.png" height="50px" width="auto"/>Algu Soluções</a> <!-- Algu Soluções -->
                     </div>
 
                     <div class="collapse navbar-collapse" id="navbar-collapse">
                         <ul class="nav navbar-nav">
-                            <li ><a href="index.php">Home</a></li> <!-- class="active" -->
-                            <li><a href="empresa.php">Empresa</a></li>
-                            <li><a href="produtos.php">Produtos</a></li>
-                            <li><a href="servicos.php">Serviços</a></li>
-                            <li><a href="contato.php">Contato</a></li>
+                            <li ><a href="home">Home</a></li> <!-- class="active" -->
+                            <li><a href="empresa">Empresa</a></li>
+                            <li><a href="produtos">Produtos</a></li>
+                            <li><a href="servicos">Serviços</a></li>
+                            <li><a href="contato">Contato</a></li>
                         </ul>
                     </div>
 

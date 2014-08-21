@@ -1,67 +1,57 @@
-<?php require_once ('header.php') ?>
+<?php
+    $url  = parse_url("http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
 
-<section class="principal-container">
+    $rota = explode('/',$url['path'],2);
 
-    <div class="foco-container">
-        <article class="container">
-            <h1>NOSSO FOCO: <strong>SATISFAÇÃO DOS CLIENTES!</strong></h1>
-            <h4>SEU SISTEMA COM SUAS NECESSIDADES.</h4>
-           <!-- <p>CONHEÇA A <strong>AUGU SOLUÇÕES!</strong></p> -->
-        </article>
+    function rotas($param) {
+        $minhasRotas = array("contato","empresa","home","produtos","servicos","contato-mensagem");
+        if(in_array($param[1], $minhasRotas)){
+            require_once($param[1].'.php');
+        } elseif ($param[1] == ""){
+            require_once('home.php');
+        } else {
+            require_once('404.php');
+        }
+    }
+
+?>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title> Algu Soluções - Curso PHP Code-Education </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="imagens/icons/favicon.ico">
+
+    <meta name="description" content="Algu Soluções - Soluções em Sistemas, Webdesign e Tecnologia" />
+    <meta name="keywords" content="Algu Soluções, sistemas, design, webdesign, redes sociais, tecnologia,"/>
+
+    <!-- Bootstrap & CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <!-- Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <?php require_once('header.php');?>
+
+    <div>
+        <?php rotas($rota); ?>
     </div>
 
-    <div class="servicos-container">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img src="imagens/content/criacao-sites.png" alt="Criação de Sites" title="Seu site com sua cara!">
-                        <div class="caption">
-                            <h3>Criação de Sites</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae cupiditate,
-                                dolores, eaque earum error ex iusto magnam modi non numquam quaerat quia ratione saepe
-                                suscipit, tempore unde! Asperiores, corporis.
-                            </p>
-                            <p><a href="#" class="btn btn-primary" role="button">+INFORMAÇÕES</a></p>
-                        </div>
-                    </div>
-                </div>
+    <?php require_once('footer.php');?>
 
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img src="imagens/content/criacao-sistemas.png" alt="Criação de Sistemas" title="Sistemas para suas necessidades">
-                        <div class="caption">
-                            <h3>Criação de Sistemas</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci asperiores
-                                consectetur distinctio dolores ipsum ullam velit veritatis! Aspernatur dolorum ex
-                                facilis fugiat mollitia placeat quos unde veniam vitae, voluptas. Et!
-                            </p>
-                            <p><a href="#" class="btn btn-primary" role="button">+INFORMAÇÕES</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img src="imagens/content/redes-sociais.png" alt="Redes Sociais" title="Integração com as redes sociais">
-                        <div class="caption">
-                            <h3>Redes Sociais</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cupiditate
-                                exercitationem incidunt ipsam, maxime voluptatibus. Animi consequatur dolor ea harum
-                                natus nisi odio quis sit veniam vitae! Alias iure, non!
-                            </p>
-                            <p><a href="#" class="btn btn-primary" role="button">+INFORMAÇÕES</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<hr/>
-<?php require_once('footer.php') ?>
+</body>
+</html>

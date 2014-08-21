@@ -1,5 +1,3 @@
-<?php require_once('header.php') ?>
-
 <section class="contato-container">
 
     <div class="contato-msg-container">
@@ -12,30 +10,30 @@
 
     <div class="contato-form-container">
         <div class="container">
-            <form class="form-horizontal" role="form" method="post" action="contato-mensagem.php">
+            <form class="form-horizontal" role="form" method="post" action="contato-mensagem">
                 <div class="form-group">
                     <label for="nome" class="col-sm-2 control-label">Nome</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome">
+                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome" required="true">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="email" class="col-sm-2 control-label">Email</label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required="true">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="assunto" class="col-sm-2 control-label">Assunto</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="assunto" name="assunto" placeholder="Assunto">
+                        <input type="text" class="form-control" id="assunto" name="assunto" placeholder="Assunto" required="true">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="mensagem" class="col-sm-2 control-label">Mensagem</label>
                     <div class="col-sm-10">
-                        <textarea class="form-control" id="mensagem" name="mensagem" rows="3"></textarea>
+                        <textarea class="form-control" id="mensagem" name="mensagem" rows="3" required="true"></textarea>
                     </div>
                 </div>
 
@@ -49,5 +47,3 @@
         </div>
     </div>
 </section>
-
-<?php require_once('footer.php') ?>
