@@ -1,3 +1,5 @@
+<?php require_once('header.php') ?>
+
 <section class="contato-container">
 
     <div class="contato-msg-container">
@@ -10,7 +12,7 @@
 
     <div class="contato-form-container">
         <div class="container">
-            <form class="form-horizontal" role="form" method="post" action="contato-mensagem">
+            <form class="form-horizontal" role="form" method="post" action="contato-mensagem.php">
                 <div class="form-group">
                     <label for="nome" class="col-sm-2 control-label">Nome</label>
                     <div class="col-sm-10">
@@ -47,3 +49,5 @@
         </div>
     </div>
 </section>
+
+<?php require_once('footer.php') ?>

@@ -1,3 +1,5 @@
+<?php require_once ('header.php') ?>
+
 <section class="empresa-container">
     <div class="banner-container">
         <article class="container">
@@ -69,4 +71,15 @@
 
         </article>
     </div>
+
+
+
 </section>
+
+
+
+
+
+
+<hr/>
+<?php require_once('footer.php') ?>
