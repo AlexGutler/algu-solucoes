@@ -1,16 +1,15 @@
-<?php
+<?php require_once('header.php');
     $nome = $_POST['nome'];
     $email = $_POST['email'];
     $assunto = $_POST['assunto'];
     $mensagem = $_POST['mensagem'];
-    $msg_email = '';
 ?>
 
 <section class="contato-mensagem-container">
 
     <div class="contato-dados-container">
         <article class="container">
-            <h4>Dados enviados com sucesso, abaixo seguem os dados que você enviou  (:</h4>
+            <h4>Dados enviados com sucesso, abaixo seguem os dados que você enviou</h4>
         </article>
     </div>
 
@@ -47,3 +46,6 @@
         </div>
     </div>
 </section>
+
+
+<?php require_once('footer.php') ?>
